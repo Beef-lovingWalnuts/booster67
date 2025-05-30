@@ -1,0 +1,7 @@
+[01m[K/home/booster/Workspace/boosterxjw/booster_nav2_controller/src/booster_nav2_example.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Knav2_msgs/action/navigate_to_pose.hpp: No such file or directory
+    3 | #include [01;31m[K<nav2_msgs/action/navigate_to_pose.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/booster_nav2_example.dir/build.make:76: CMakeFiles/booster_nav2_example.dir/src/booster_nav2_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/booster_nav2_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

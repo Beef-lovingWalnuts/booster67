@@ -1,0 +1,4 @@
+Invoking command in '/home/booster/Workspace/slamxjw/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/slamxjw/build/navigation_pkg -- -j8 -l8
+Invoked command in '/home/booster/Workspace/slamxjw/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/slamxjw/build/navigation_pkg -- -j8 -l8
+Invoking command in '/home/booster/Workspace/slamxjw/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/booster/Workspace/slamxjw/build/navigation_pkg
+Invoked command in '/home/booster/Workspace/slamxjw/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/booster/Workspace/slamxjw/build/navigation_pkg

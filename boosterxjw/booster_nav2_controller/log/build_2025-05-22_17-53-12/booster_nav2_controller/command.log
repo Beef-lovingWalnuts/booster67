@@ -1,0 +1,2 @@
+Invoking command in '/home/booster/Workspace/boosterxjw/booster_nav2_controller/build/booster_nav2_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_nav2_controller/build/booster_nav2_controller -- -j8 -l8
+Invoked command in '/home/booster/Workspace/boosterxjw/booster_nav2_controller/build/booster_nav2_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_nav2_controller/build/booster_nav2_controller -- -j8 -l8

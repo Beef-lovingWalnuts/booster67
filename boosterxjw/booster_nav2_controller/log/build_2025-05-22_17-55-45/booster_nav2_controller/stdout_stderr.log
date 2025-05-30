@@ -1,0 +1,37 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/booster_nav2_example.dir/src/booster_nav2_example.cpp.o[0m
+In file included from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/idl/rpc/RpcReqMsg.h:29[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/rpc/rpc_client.hpp:14[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_client.hpp:6[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_nav2_controller/src/booster_nav2_example.cpp:7[m[K:
+[01m[K/usr/local/include/fastcdr/cdr/fixed_size_string.hpp:44:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration of template ‘[01m[Ktemplate<long unsigned int MAX_CHARS> struct eprosima::fastcdr::fixed_string[m[K’
+   44 | struct [01;31m[Kfixed_string[m[K
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/fastdds/dds/topic/TopicDataType.hpp:27[m[K,
+                 from [01m[K/usr/local/include/fastdds/dds/topic/IContentFilterFactory.hpp:26[m[K,
+                 from [01m[K/usr/local/include/fastdds/dds/domain/DomainParticipant.hpp:34[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/common/dds/dds_entity.hpp:6[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/common/dds/dds_topic_channel.hpp:6[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/common/dds/dds_factory_model.hpp:4[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/channel/channel_factory.hpp:6[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/channel/channel_publisher.hpp:7[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/rpc/rpc_client.hpp:10[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_client.hpp:6[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_nav2_controller/src/booster_nav2_example.cpp:7[m[K:
+[01m[K/usr/local/include/fastdds/rtps/common/CdrSerialization.hpp:77:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Ktemplate<long unsigned int MAX_CHARS> using fixed_string = eprosima::fastrtps::fixed_string<N>[m[K’
+   77 | using [01;36m[Kfixed_string[m[K = eprosima::fastrtps::fixed_string<MAX_CHARS>;
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_client.hpp:8[m[K,
+                 from [01m[K/home/booster/Workspace/boosterxjw/booster_nav2_controller/src/booster_nav2_example.cpp:7[m[K:
+[01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_api.hpp:[m[K In constructor ‘[01m[Kbooster::robot::b1::WaveHandParameter::WaveHandParameter(booster::robot::b1::HandIndex, booster::robot::b1::HandAction)[m[K’:
+[01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_api.hpp:163:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbooster::robot::b1::WaveHandParameter::hand_action_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  163 |     HandAction [01;35m[Khand_action_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_api.hpp:162:15:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbooster::robot::b1::HandIndex booster::robot::b1::WaveHandParameter::hand_index_[m[K’ [[01;35m[K-Wreorder[m[K]
+  162 |     HandIndex [01;35m[Khand_index_[m[K;
+      |               [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/booster/Workspace/boosterxjw/booster_robotics_sdk_release/include/booster/robot/b1/b1_loco_api.hpp:144:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+  144 |     [01;35m[KWaveHandParameter[m[K(HandIndex hand_index, HandAction hand_action) :
+      |     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/booster_nav2_example.dir/build.make:76: CMakeFiles/booster_nav2_example.dir/src/booster_nav2_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/booster_nav2_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
