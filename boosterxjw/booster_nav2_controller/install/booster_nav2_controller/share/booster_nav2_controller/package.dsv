@@ -1,5 +1,0 @@
-source;share/booster_nav2_controller/local_setup.bash
-source;share/booster_nav2_controller/local_setup.dsv
-source;share/booster_nav2_controller/local_setup.ps1
-source;share/booster_nav2_controller/local_setup.sh
-source;share/booster_nav2_controller/local_setup.zsh
