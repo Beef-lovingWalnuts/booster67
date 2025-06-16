@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target rpc_client_node[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/rpc_client_node.dir/src/client.cpp.o[0m
+[19.765s] [100%] [32m[1mLinking CXX executable rpc_client_node[0m
+[20.710s] [100%] Built target rpc_client_node
+[20.734s] Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[20.736s] Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client
+[20.750s] -- Install configuration: ""
+[20.751s] -- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/booster_rpc_client/rpc_client_node
+[20.765s] -- Set runtime path of "/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/booster_rpc_client/rpc_client_node" to ""
+[20.765s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/package_run_dependencies/booster_rpc_client
+[20.765s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/parent_prefix_path/booster_rpc_client
+[20.765s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/ament_prefix_path.sh
+[20.765s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/ament_prefix_path.dsv
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/path.sh
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/path.dsv
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.bash
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.sh
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.zsh
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.dsv
+[20.766s] -- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.dsv
+[20.766s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/packages/booster_rpc_client
+[20.767s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/cmake/booster_rpc_clientConfig.cmake
+[20.767s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/cmake/booster_rpc_clientConfig-version.cmake
+[20.767s] -- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.xml
+[20.770s] Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client

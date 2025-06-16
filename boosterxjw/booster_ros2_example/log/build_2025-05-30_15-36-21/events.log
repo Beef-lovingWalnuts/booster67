@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000740] (booster_rpc_client) JobQueued: {'identifier': 'booster_rpc_client', 'dependencies': OrderedDict()}
+[0.001253] (low_level) JobQueued: {'identifier': 'low_level', 'dependencies': OrderedDict()}
+[0.001489] (booster_rpc_client) JobStarted: {'identifier': 'booster_rpc_client'}
+[0.013161] (low_level) JobStarted: {'identifier': 'low_level'}
+[0.023149] (booster_rpc_client) JobProgress: {'identifier': 'booster_rpc_client', 'progress': 'cmake'}
+[0.024387] (booster_rpc_client) JobProgress: {'identifier': 'booster_rpc_client', 'progress': 'build'}
+[0.025492] (booster_rpc_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', '--', '-j8', '-l8'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 59984 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/lib:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/7'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('COLCON_PREFIX_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install:/home/booster/Workspace/booster_ros2_example/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 59984 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble')]), 'shell': False}
+[0.032613] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'cmake'}
+[0.033713] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'build'}
+[0.034152] (low_level) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', '--', '-j8', '-l8'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 59984 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/lib:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/7'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('COLCON_PREFIX_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install:/home/booster/Workspace/booster_ros2_example/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 59984 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble')]), 'shell': False}
+[0.071916] (booster_rpc_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099353] (-) TimerEvent: {}
+[0.134604] (low_level) StdoutLine: {'line': b'[100%] Built target low_level_subscriber_node\n'}
+[0.157652] (low_level) CommandEnded: {'returncode': 0}
+[0.158444] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'install'}
+[0.176661] (low_level) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 59984 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/lib:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/7'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('COLCON_PREFIX_PATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install:/home/booster/Workspace/booster_ros2_example/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 59984 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/booster/Workspace/booster_ros2_example/install/low_level:/home/booster/Workspace/booster_ros2_example/install/booster_rpc_client:/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface:/opt/ros/humble')]), 'shell': False}
+[0.193570] (low_level) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.194051] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/low_level/low_level_subscriber_node\n'}
+[0.194269] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/package_run_dependencies/low_level\n'}
+[0.194427] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/parent_prefix_path/low_level\n'}
+[0.194532] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/ament_prefix_path.sh\n'}
+[0.194680] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/ament_prefix_path.dsv\n'}
+[0.194787] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/path.sh\n'}
+[0.194925] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/path.dsv\n'}
+[0.195067] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.bash\n'}
+[0.195191] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.sh\n'}
+[0.195290] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.zsh\n'}
+[0.195387] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.dsv\n'}
+[0.195483] (low_level) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.dsv\n'}
+[0.195614] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/packages/low_level\n'}
+[0.195750] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/cmake/low_levelConfig.cmake\n'}
+[0.195872] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/cmake/low_levelConfig-version.cmake\n'}
+[0.195972] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.xml\n'}
+[0.199773] (low_level) CommandEnded: {'returncode': 0}
+[0.200883] (-) TimerEvent: {}
+[0.233448] (low_level) JobEnded: {'identifier': 'low_level', 'rc': 0}
+[0.301083] (-) TimerEvent: {}
+[0.313490] (booster_rpc_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.377030] (booster_rpc_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.381879] (booster_rpc_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.392623] (booster_rpc_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.401193] (-) TimerEvent: {}
+[0.407200] (booster_rpc_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.427008] (booster_rpc_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.471798] (booster_rpc_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.473947] (booster_rpc_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501422] (-) TimerEvent: {}
+[0.602260] (-) TimerEvent: {}
+[0.645415] (booster_rpc_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702431] (-) TimerEvent: {}
+[0.717151] (booster_rpc_client) StdoutLine: {'line': b'-- Found booster_interface: 0.0.0 (/home/booster/Workspace/boosterxjw/booster_ros2_interface/install/booster_interface/share/booster_interface/cmake)\n'}
+[0.730632] (booster_rpc_client) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.740980] (booster_rpc_client) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.762482] (booster_rpc_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.802577] (-) TimerEvent: {}
+[0.886621] (booster_rpc_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.887142] (booster_rpc_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.887290] (booster_rpc_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.887636] (booster_rpc_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.888348] (booster_rpc_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.888497] (booster_rpc_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.888763] (booster_rpc_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.890010] (booster_rpc_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.902746] (-) TimerEvent: {}
+[0.913167] (booster_rpc_client) StdoutLine: {'line': b'-- Generating done\n'}
+[0.922078] (booster_rpc_client) StdoutLine: {'line': b'-- Build files have been written to: /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client\n'}
+[0.979843] (booster_rpc_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpc_client_node\x1b[0m\n'}
+[1.002921] (-) TimerEvent: {}
+[1.017605] (booster_rpc_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rpc_client_node.dir/src/client.cpp.o\x1b[0m\n'}
+[1.103122] (-) TimerEvent: {}
+[1.203782] (-) TimerEvent: {}
+[1.304457] (-) TimerEvent: {}
+[1.405134] (-) TimerEvent: {}
+[1.505815] (-) TimerEvent: {}
+[1.606493] (-) TimerEvent: {}
+[1.707196] (-) TimerEvent: {}
+[1.807904] (-) TimerEvent: {}
+[1.908561] (-) TimerEvent: {}
+[2.009217] (-) TimerEvent: {}
+[2.110272] (-) TimerEvent: {}
+[2.211259] (-) TimerEvent: {}
+[2.311977] (-) TimerEvent: {}
+[2.412834] (-) TimerEvent: {}
+[2.513704] (-) TimerEvent: {}
+[2.614420] (-) TimerEvent: {}
+[2.715191] (-) TimerEvent: {}
+[2.816015] (-) TimerEvent: {}
+[2.916735] (-) TimerEvent: {}
+[3.017573] (-) TimerEvent: {}
+[3.118348] (-) TimerEvent: {}
+[3.219705] (-) TimerEvent: {}
+[3.320523] (-) TimerEvent: {}
+[3.421377] (-) TimerEvent: {}
+[3.522260] (-) TimerEvent: {}
+[3.623160] (-) TimerEvent: {}
+[3.724005] (-) TimerEvent: {}
+[3.824839] (-) TimerEvent: {}
+[3.925880] (-) TimerEvent: {}
+[4.026757] (-) TimerEvent: {}
+[4.127829] (-) TimerEvent: {}
+[4.228711] (-) TimerEvent: {}
+[4.329838] (-) TimerEvent: {}
+[4.430685] (-) TimerEvent: {}
+[4.531574] (-) TimerEvent: {}
+[4.632379] (-) TimerEvent: {}
+[4.733064] (-) TimerEvent: {}
+[4.833869] (-) TimerEvent: {}
+[4.934613] (-) TimerEvent: {}
+[5.035411] (-) TimerEvent: {}
+[5.136132] (-) TimerEvent: {}
+[5.236993] (-) TimerEvent: {}
+[5.337845] (-) TimerEvent: {}
+[5.438658] (-) TimerEvent: {}
+[5.539482] (-) TimerEvent: {}
+[5.651273] (-) TimerEvent: {}
+[5.752082] (-) TimerEvent: {}
+[5.852983] (-) TimerEvent: {}
+[5.953848] (-) TimerEvent: {}
+[6.054701] (-) TimerEvent: {}
+[6.155562] (-) TimerEvent: {}
+[6.183788] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sendStopCommand()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.184664] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:15:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.185025] (booster_rpc_client) StderrLine: {'line': b'   15 |     if (!\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->service_is_ready()) return;\n'}
+[6.185878] (booster_rpc_client) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.197943] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:19:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.198562] (booster_rpc_client) StderrLine: {'line': b'   19 |     auto result = \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->async_send_request(request);\n'}
+[6.198796] (booster_rpc_client) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.206491] (booster_rpc_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.207219] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.207530] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.207811] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.208068] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.208320] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.208563] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.208803] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.209107] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.209351] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.209589] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:4\x1b[m\x1b[K:\n'}
+[6.209825] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:20:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.210065] (booster_rpc_client) StderrLine: {'line': b'   20 |     RCLCPP_INFO(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "Stop command sent.");\n'}
+[6.210561] (booster_rpc_client) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.210685] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.210826] (booster_rpc_client) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Stop command sent.");\n'}
+[6.210927] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.211062] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.211170] (booster_rpc_client) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Stop command sent.");\n'}
+[6.211262] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.211350] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.211437] (booster_rpc_client) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Stop command sent.");\n'}
+[6.211523] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.220719] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.221496] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.221792] (booster_rpc_client) StderrLine: {'line': b'   24 |     if (!\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->service_is_ready()) {\n'}
+[6.222054] (booster_rpc_client) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.229012] (booster_rpc_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.229534] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.229802] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.230050] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.230291] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.230530] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.230768] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.231314] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.231418] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.231551] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.231645] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:4\x1b[m\x1b[K:\n'}
+[6.231736] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:25:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.231831] (booster_rpc_client) StderrLine: {'line': b'   25 |         RCLCPP_WARN(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "Service not ready, skipping this cmd_vel");\n'}
+[6.231940] (booster_rpc_client) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.232029] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.232119] (booster_rpc_client) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(node->get_logger(), "Service not ready, skipping this cmd_vel");\n'}
+[6.232208] (booster_rpc_client) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.232295] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.232398] (booster_rpc_client) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(node->get_logger(), "Service not ready, skipping this cmd_vel");\n'}
+[6.232488] (booster_rpc_client) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.232576] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.232664] (booster_rpc_client) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(node->get_logger(), "Service not ready, skipping this cmd_vel");\n'}
+[6.232751] (booster_rpc_client) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.237457] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.237799] (booster_rpc_client) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->async_send_request(request);\n'}
+[6.238057] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.244219] (booster_rpc_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.244905] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.245187] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.245433] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.245668] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.245908] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.246142] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.246372] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.246607] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.247219] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.247338] (booster_rpc_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:4\x1b[m\x1b[K:\n'}
+[6.247502] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:39:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.247606] (booster_rpc_client) StderrLine: {'line': b'   39 |     RCLCPP_INFO(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "Move command sent.");\n'}
+[6.247697] (booster_rpc_client) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.247787] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.247880] (booster_rpc_client) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Move command sent.");\n'}
+[6.247971] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.248060] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.248148] (booster_rpc_client) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Move command sent.");\n'}
+[6.248234] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.248318] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.248420] (booster_rpc_client) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Move command sent.");\n'}
+[6.248508] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.253219] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:42:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop_timer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstrptime\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.253867] (booster_rpc_client) StderrLine: {'line': b'   42 |     \x1b[01;31m\x1b[Kstop_timer\x1b[m\x1b[K = node->create_wall_timer(3s, [](){\n'}
+[6.254156] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.254405] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstrptime\x1b[m\x1b[K\n'}
+[6.255636] (-) TimerEvent: {}
+[6.261334] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:42:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.262092] (booster_rpc_client) StderrLine: {'line': b'   42 |     stop_timer = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->create_wall_timer(3s, [](){\n'}
+[6.262400] (booster_rpc_client) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.262636] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.262857] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop_timer\x1b[m\x1b[K\xe2\x80\x99 is not captured\n'}
+[6.263087] (booster_rpc_client) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kstop_timer\x1b[m\x1b[K->cancel();  // \xe5\x8f\xaa\xe6\x89\xa7\xe8\xa1\x8c\xe4\xb8\x80\xe6\xac\xa1\n'}
+[6.263348] (booster_rpc_client) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.263554] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:42:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe lambda has no capture-default\n'}
+[6.263757] (booster_rpc_client) StderrLine: {'line': b'   42 |     stop_timer = node->create_wall_timer(3s, [\x1b[01;36m\x1b[K]\x1b[m\x1b[K(){\n'}
+[6.263952] (booster_rpc_client) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.264146] (booster_rpc_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:42:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<typeprefixerror>stop_timer\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.264342] (booster_rpc_client) StderrLine: {'line': b'   42 |     \x1b[01;36m\x1b[Kstop_timer\x1b[m\x1b[K = node->create_wall_timer(3s, [](){\n'}
+[6.264532] (booster_rpc_client) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.355838] (-) TimerEvent: {}
+[6.456586] (-) TimerEvent: {}
+[6.557258] (-) TimerEvent: {}
+[6.657923] (-) TimerEvent: {}
+[6.758600] (-) TimerEvent: {}
+[6.859295] (-) TimerEvent: {}
+[6.959953] (-) TimerEvent: {}
+[7.060628] (-) TimerEvent: {}
+[7.161307] (-) TimerEvent: {}
+[7.261975] (-) TimerEvent: {}
+[7.362624] (-) TimerEvent: {}
+[7.463344] (-) TimerEvent: {}
+[7.564016] (-) TimerEvent: {}
+[7.664680] (-) TimerEvent: {}
+[7.765392] (-) TimerEvent: {}
+[7.866045] (-) TimerEvent: {}
+[7.966680] (-) TimerEvent: {}
+[8.067354] (-) TimerEvent: {}
+[8.167985] (-) TimerEvent: {}
+[8.268618] (-) TimerEvent: {}
+[8.369275] (-) TimerEvent: {}
+[8.469912] (-) TimerEvent: {}
+[8.570545] (-) TimerEvent: {}
+[8.671200] (-) TimerEvent: {}
+[8.771879] (-) TimerEvent: {}
+[8.872513] (-) TimerEvent: {}
+[8.973153] (-) TimerEvent: {}
+[9.073784] (-) TimerEvent: {}
+[9.174408] (-) TimerEvent: {}
+[9.275129] (-) TimerEvent: {}
+[9.375770] (-) TimerEvent: {}
+[9.476411] (-) TimerEvent: {}
+[9.577055] (-) TimerEvent: {}
+[9.677704] (-) TimerEvent: {}
+[9.778358] (-) TimerEvent: {}
+[9.879002] (-) TimerEvent: {}
+[9.979676] (-) TimerEvent: {}
+[10.080340] (-) TimerEvent: {}
+[10.180998] (-) TimerEvent: {}
+[10.281672] (-) TimerEvent: {}
+[10.382373] (-) TimerEvent: {}
+[10.483031] (-) TimerEvent: {}
+[10.583691] (-) TimerEvent: {}
+[10.684357] (-) TimerEvent: {}
+[10.785050] (-) TimerEvent: {}
+[10.885735] (-) TimerEvent: {}
+[10.986405] (-) TimerEvent: {}
+[11.087084] (-) TimerEvent: {}
+[11.187735] (-) TimerEvent: {}
+[11.288414] (-) TimerEvent: {}
+[11.389583] (-) TimerEvent: {}
+[11.490269] (-) TimerEvent: {}
+[11.591011] (-) TimerEvent: {}
+[11.691684] (-) TimerEvent: {}
+[11.792393] (-) TimerEvent: {}
+[11.893072] (-) TimerEvent: {}
+[11.993741] (-) TimerEvent: {}
+[12.094409] (-) TimerEvent: {}
+[12.195115] (-) TimerEvent: {}
+[12.295780] (-) TimerEvent: {}
+[12.396437] (-) TimerEvent: {}
+[12.497098] (-) TimerEvent: {}
+[12.597756] (-) TimerEvent: {}
+[12.698418] (-) TimerEvent: {}
+[12.799197] (-) TimerEvent: {}
+[12.899852] (-) TimerEvent: {}
+[13.000508] (-) TimerEvent: {}
+[13.101177] (-) TimerEvent: {}
+[13.201825] (-) TimerEvent: {}
+[13.302493] (-) TimerEvent: {}
+[13.312568] (booster_rpc_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpc_client_node.dir/build.make:76: CMakeFiles/rpc_client_node.dir/src/client.cpp.o] Error 1\n'}
+[13.313116] (booster_rpc_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpc_client_node.dir/all] Error 2\n'}
+[13.313610] (booster_rpc_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.319629] (booster_rpc_client) CommandEnded: {'returncode': 2}
+[13.339465] (booster_rpc_client) JobEnded: {'identifier': 'booster_rpc_client', 'rc': 2}
+[13.351325] (-) EventReactorShutdown: {}

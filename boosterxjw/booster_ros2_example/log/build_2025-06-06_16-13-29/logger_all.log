@@ -1,0 +1,193 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb98f87f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb98f8280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb98f8280>>)
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.466s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/booster/Workspace/boosterxjw/booster_ros2_example'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(low_level) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'low_level' with type 'ros.ament_cmake' and name 'low_level'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(rpc_client) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'rpc_client' with type 'ros.ament_cmake' and name 'booster_rpc_client'
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.568s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/booster/Workspace/boosterxjw/booster_ros2_interface/install
+[0.569s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/booster/Workspace/boosterxjw/booster_ros2_example/install
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'booster_rpc_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'booster_rpc_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client', 'merge_install': False, 'path': '/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client', 'symlink_install': False, 'test_result_base': None}
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_target' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_clean_cache' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'low_level' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'low_level' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level', 'merge_install': False, 'path': '/home/booster/Workspace/boosterxjw/booster_ros2_example/low_level', 'symlink_install': False, 'test_result_base': None}
+[0.650s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client'
+[0.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.664s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/booster/Workspace/boosterxjw/booster_ros2_example/low_level' with build type 'ament_cmake'
+[0.665s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/booster/Workspace/boosterxjw/booster_ros2_example/low_level'
+[0.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level -- -j8 -l8
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level -- -j8 -l8
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level
+[0.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(low_level)
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level' for CMake module files
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level' for CMake config files
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('low_level', 'cmake_prefix_path')
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.ps1'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/bin'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/pkgconfig/low_level.pc'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/python3.10/site-packages'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/bin'
+[0.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.sh'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.bash'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.zsh'
+[0.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/colcon-core/packages/low_level)
+[0.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(low_level)
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level' for CMake module files
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level' for CMake config files
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('low_level', 'cmake_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/hook/cmake_prefix_path.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/bin'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/pkgconfig/low_level.pc'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/python3.10/site-packages'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/bin'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.dsv'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.sh'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.bash'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.zsh'
+[0.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/colcon-core/packages/low_level)
+[25.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[25.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client
+[25.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(booster_rpc_client)
+[25.562s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client' for CMake module files
+[25.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client
+[25.564s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client' for CMake config files
+[25.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('booster_rpc_client', 'cmake_prefix_path')
+[25.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.ps1'
+[25.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.dsv'
+[25.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.sh'
+[25.568s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib'
+[25.568s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/bin'
+[25.568s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/pkgconfig/booster_rpc_client.pc'
+[25.569s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/python3.10/site-packages'
+[25.569s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/bin'
+[25.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.ps1'
+[25.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.dsv'
+[25.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.sh'
+[25.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.bash'
+[25.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.zsh'
+[25.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/colcon-core/packages/booster_rpc_client)
+[25.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(booster_rpc_client)
+[25.576s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client' for CMake module files
+[25.576s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client' for CMake config files
+[25.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('booster_rpc_client', 'cmake_prefix_path')
+[25.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.ps1'
+[25.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.dsv'
+[25.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/hook/cmake_prefix_path.sh'
+[25.582s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib'
+[25.582s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/bin'
+[25.583s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/pkgconfig/booster_rpc_client.pc'
+[25.583s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/python3.10/site-packages'
+[25.584s] Level 1:colcon.colcon_core.environment:checking '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/bin'
+[25.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.ps1'
+[25.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.dsv'
+[25.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.sh'
+[25.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.bash'
+[25.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.zsh'
+[25.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/colcon-core/packages/booster_rpc_client)
+[25.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.605s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.627s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[50.627s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/local_setup.ps1'
+[50.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/_local_setup_util_ps1.py'
+[50.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/setup.ps1'
+[50.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/local_setup.sh'
+[50.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/_local_setup_util_sh.py'
+[50.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/setup.sh'
+[50.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/local_setup.bash'
+[50.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/setup.bash'
+[50.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/local_setup.zsh'
+[50.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/booster/Workspace/boosterxjw/booster_ros2_example/install/setup.zsh'

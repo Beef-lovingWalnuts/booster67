@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (booster_rpc_client) JobQueued: {'identifier': 'booster_rpc_client', 'dependencies': OrderedDict()}
+[0.000498] (low_level) JobQueued: {'identifier': 'low_level', 'dependencies': OrderedDict()}
+[0.000532] (booster_rpc_client) JobStarted: {'identifier': 'booster_rpc_client'}
+[0.012075] (low_level) JobStarted: {'identifier': 'low_level'}
+[0.016118] (booster_rpc_client) JobProgress: {'identifier': 'booster_rpc_client', 'progress': 'cmake'}
+[0.017323] (booster_rpc_client) JobProgress: {'identifier': 'booster_rpc_client', 'progress': 'build'}
+[0.018423] (booster_rpc_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', '--', '-j8', '-l8'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 55246 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/0'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 55246 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069530] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'cmake'}
+[0.071906] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'build'}
+[0.072614] (low_level) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', '--', '-j8', '-l8'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 55246 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/0'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 55246 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.084686] (-) TimerEvent: {}
+[0.185324] (-) TimerEvent: {}
+[0.238615] (low_level) StdoutLine: {'line': b'[100%] Built target low_level_subscriber_node\n'}
+[0.241666] (booster_rpc_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpc_client_node\x1b[0m\n'}
+[0.274377] (low_level) CommandEnded: {'returncode': 0}
+[0.275176] (low_level) JobProgress: {'identifier': 'low_level', 'progress': 'install'}
+[0.285587] (-) TimerEvent: {}
+[0.286357] (booster_rpc_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rpc_client_node.dir/src/client.cpp.o\x1b[0m\n'}
+[0.339597] (low_level) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 55246 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/0'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/low_level'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 55246 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.349520] (low_level) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.350077] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/lib/low_level/low_level_subscriber_node\n'}
+[0.350242] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/package_run_dependencies/low_level\n'}
+[0.350356] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/parent_prefix_path/low_level\n'}
+[0.350453] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/ament_prefix_path.sh\n'}
+[0.350657] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/ament_prefix_path.dsv\n'}
+[0.350784] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/path.sh\n'}
+[0.350882] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/environment/path.dsv\n'}
+[0.350971] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.bash\n'}
+[0.351055] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.sh\n'}
+[0.351137] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.zsh\n'}
+[0.351218] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/local_setup.dsv\n'}
+[0.351297] (low_level) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.dsv\n'}
+[0.351568] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/ament_index/resource_index/packages/low_level\n'}
+[0.351718] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/cmake/low_levelConfig.cmake\n'}
+[0.351813] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/cmake/low_levelConfig-version.cmake\n'}
+[0.351899] (low_level) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/low_level/share/low_level/package.xml\n'}
+[0.359959] (low_level) CommandEnded: {'returncode': 0}
+[0.386700] (-) TimerEvent: {}
+[0.409343] (low_level) JobEnded: {'identifier': 'low_level', 'rc': 0}
+[0.486914] (-) TimerEvent: {}
+[0.587884] (-) TimerEvent: {}
+[0.691223] (-) TimerEvent: {}
+[0.791932] (-) TimerEvent: {}
+[0.892564] (-) TimerEvent: {}
+[0.993193] (-) TimerEvent: {}
+[1.094866] (-) TimerEvent: {}
+[1.195571] (-) TimerEvent: {}
+[1.296521] (-) TimerEvent: {}
+[1.397237] (-) TimerEvent: {}
+[1.498331] (-) TimerEvent: {}
+[1.599005] (-) TimerEvent: {}
+[1.699700] (-) TimerEvent: {}
+[1.800409] (-) TimerEvent: {}
+[1.901159] (-) TimerEvent: {}
+[2.002247] (-) TimerEvent: {}
+[2.102931] (-) TimerEvent: {}
+[2.203886] (-) TimerEvent: {}
+[2.304706] (-) TimerEvent: {}
+[2.405348] (-) TimerEvent: {}
+[2.505995] (-) TimerEvent: {}
+[2.606694] (-) TimerEvent: {}
+[2.707465] (-) TimerEvent: {}
+[2.808122] (-) TimerEvent: {}
+[2.908757] (-) TimerEvent: {}
+[3.009423] (-) TimerEvent: {}
+[3.110114] (-) TimerEvent: {}
+[3.210758] (-) TimerEvent: {}
+[3.311408] (-) TimerEvent: {}
+[3.412048] (-) TimerEvent: {}
+[3.512683] (-) TimerEvent: {}
+[3.613330] (-) TimerEvent: {}
+[3.713981] (-) TimerEvent: {}
+[3.814743] (-) TimerEvent: {}
+[3.915399] (-) TimerEvent: {}
+[4.016032] (-) TimerEvent: {}
+[4.116665] (-) TimerEvent: {}
+[4.217307] (-) TimerEvent: {}
+[4.317963] (-) TimerEvent: {}
+[4.419686] (-) TimerEvent: {}
+[4.520338] (-) TimerEvent: {}
+[4.621017] (-) TimerEvent: {}
+[4.721749] (-) TimerEvent: {}
+[4.822459] (-) TimerEvent: {}
+[4.923667] (-) TimerEvent: {}
+[5.025213] (-) TimerEvent: {}
+[5.126107] (-) TimerEvent: {}
+[5.226764] (-) TimerEvent: {}
+[5.327487] (-) TimerEvent: {}
+[5.428135] (-) TimerEvent: {}
+[5.528851] (-) TimerEvent: {}
+[5.629604] (-) TimerEvent: {}
+[5.730346] (-) TimerEvent: {}
+[5.831012] (-) TimerEvent: {}
+[5.931666] (-) TimerEvent: {}
+[6.032392] (-) TimerEvent: {}
+[6.133090] (-) TimerEvent: {}
+[6.234812] (-) TimerEvent: {}
+[6.335494] (-) TimerEvent: {}
+[6.436627] (-) TimerEvent: {}
+[6.538138] (-) TimerEvent: {}
+[6.638819] (-) TimerEvent: {}
+[6.739470] (-) TimerEvent: {}
+[6.840094] (-) TimerEvent: {}
+[6.940762] (-) TimerEvent: {}
+[7.047503] (-) TimerEvent: {}
+[7.148152] (-) TimerEvent: {}
+[7.248962] (-) TimerEvent: {}
+[7.349673] (-) TimerEvent: {}
+[7.450295] (-) TimerEvent: {}
+[7.550935] (-) TimerEvent: {}
+[7.651947] (-) TimerEvent: {}
+[7.752616] (-) TimerEvent: {}
+[7.853262] (-) TimerEvent: {}
+[7.953892] (-) TimerEvent: {}
+[8.054641] (-) TimerEvent: {}
+[8.155404] (-) TimerEvent: {}
+[8.256058] (-) TimerEvent: {}
+[8.356685] (-) TimerEvent: {}
+[8.457322] (-) TimerEvent: {}
+[8.558040] (-) TimerEvent: {}
+[8.658761] (-) TimerEvent: {}
+[8.759513] (-) TimerEvent: {}
+[8.860196] (-) TimerEvent: {}
+[8.960817] (-) TimerEvent: {}
+[9.061464] (-) TimerEvent: {}
+[9.162118] (-) TimerEvent: {}
+[9.262852] (-) TimerEvent: {}
+[9.366369] (-) TimerEvent: {}
+[9.467091] (-) TimerEvent: {}
+[9.568055] (-) TimerEvent: {}
+[9.668713] (-) TimerEvent: {}
+[9.769367] (-) TimerEvent: {}
+[9.869998] (-) TimerEvent: {}
+[9.970632] (-) TimerEvent: {}
+[10.071259] (-) TimerEvent: {}
+[10.171942] (-) TimerEvent: {}
+[10.272559] (-) TimerEvent: {}
+[10.373180] (-) TimerEvent: {}
+[10.473812] (-) TimerEvent: {}
+[10.574415] (-) TimerEvent: {}
+[10.675498] (-) TimerEvent: {}
+[10.776154] (-) TimerEvent: {}
+[10.876819] (-) TimerEvent: {}
+[10.977447] (-) TimerEvent: {}
+[11.078092] (-) TimerEvent: {}
+[11.178716] (-) TimerEvent: {}
+[11.279323] (-) TimerEvent: {}
+[11.379991] (-) TimerEvent: {}
+[11.480742] (-) TimerEvent: {}
+[11.581356] (-) TimerEvent: {}
+[11.681991] (-) TimerEvent: {}
+[11.782607] (-) TimerEvent: {}
+[11.883279] (-) TimerEvent: {}
+[11.983904] (-) TimerEvent: {}
+[12.084520] (-) TimerEvent: {}
+[12.185162] (-) TimerEvent: {}
+[12.285821] (-) TimerEvent: {}
+[12.386477] (-) TimerEvent: {}
+[12.487111] (-) TimerEvent: {}
+[12.587877] (-) TimerEvent: {}
+[12.688511] (-) TimerEvent: {}
+[12.789751] (-) TimerEvent: {}
+[12.890441] (-) TimerEvent: {}
+[12.991405] (-) TimerEvent: {}
+[13.092135] (-) TimerEvent: {}
+[13.192867] (-) TimerEvent: {}
+[13.293553] (-) TimerEvent: {}
+[13.395267] (-) TimerEvent: {}
+[13.496419] (-) TimerEvent: {}
+[13.597193] (-) TimerEvent: {}
+[13.697911] (-) TimerEvent: {}
+[13.798550] (-) TimerEvent: {}
+[13.899238] (-) TimerEvent: {}
+[14.000100] (-) TimerEvent: {}
+[14.101173] (-) TimerEvent: {}
+[14.201871] (-) TimerEvent: {}
+[14.302507] (-) TimerEvent: {}
+[14.403175] (-) TimerEvent: {}
+[14.503839] (-) TimerEvent: {}
+[14.604533] (-) TimerEvent: {}
+[14.705175] (-) TimerEvent: {}
+[14.805837] (-) TimerEvent: {}
+[14.906480] (-) TimerEvent: {}
+[15.007175] (-) TimerEvent: {}
+[15.107817] (-) TimerEvent: {}
+[15.208517] (-) TimerEvent: {}
+[15.309154] (-) TimerEvent: {}
+[15.410297] (-) TimerEvent: {}
+[15.510948] (-) TimerEvent: {}
+[15.611623] (-) TimerEvent: {}
+[15.712280] (-) TimerEvent: {}
+[15.812945] (-) TimerEvent: {}
+[15.913919] (-) TimerEvent: {}
+[16.014573] (-) TimerEvent: {}
+[16.115237] (-) TimerEvent: {}
+[16.215935] (-) TimerEvent: {}
+[16.316550] (-) TimerEvent: {}
+[16.417187] (-) TimerEvent: {}
+[16.517817] (-) TimerEvent: {}
+[16.618434] (-) TimerEvent: {}
+[16.719060] (-) TimerEvent: {}
+[16.819692] (-) TimerEvent: {}
+[16.920306] (-) TimerEvent: {}
+[17.020925] (-) TimerEvent: {}
+[17.121651] (-) TimerEvent: {}
+[17.222371] (-) TimerEvent: {}
+[17.323050] (-) TimerEvent: {}
+[17.423706] (-) TimerEvent: {}
+[17.524359] (-) TimerEvent: {}
+[17.625117] (-) TimerEvent: {}
+[17.726253] (-) TimerEvent: {}
+[17.826909] (-) TimerEvent: {}
+[17.927895] (-) TimerEvent: {}
+[18.028507] (-) TimerEvent: {}
+[18.129113] (-) TimerEvent: {}
+[18.229880] (-) TimerEvent: {}
+[18.330585] (-) TimerEvent: {}
+[18.431503] (-) TimerEvent: {}
+[18.532729] (-) TimerEvent: {}
+[18.633401] (-) TimerEvent: {}
+[18.734097] (-) TimerEvent: {}
+[18.834771] (-) TimerEvent: {}
+[18.935523] (-) TimerEvent: {}
+[19.036194] (-) TimerEvent: {}
+[19.136829] (-) TimerEvent: {}
+[19.237452] (-) TimerEvent: {}
+[19.338086] (-) TimerEvent: {}
+[19.438724] (-) TimerEvent: {}
+[19.539392] (-) TimerEvent: {}
+[19.639994] (-) TimerEvent: {}
+[19.740604] (-) TimerEvent: {}
+[19.841244] (-) TimerEvent: {}
+[19.941879] (-) TimerEvent: {}
+[20.042539] (-) TimerEvent: {}
+[20.143185] (-) TimerEvent: {}
+[20.243879] (-) TimerEvent: {}
+[20.344501] (-) TimerEvent: {}
+[20.445176] (-) TimerEvent: {}
+[20.545806] (-) TimerEvent: {}
+[20.646431] (-) TimerEvent: {}
+[20.747055] (-) TimerEvent: {}
+[20.847709] (-) TimerEvent: {}
+[20.948348] (-) TimerEvent: {}
+[21.048977] (-) TimerEvent: {}
+[21.149631] (-) TimerEvent: {}
+[21.250284] (-) TimerEvent: {}
+[21.350919] (-) TimerEvent: {}
+[21.451581] (-) TimerEvent: {}
+[21.552258] (-) TimerEvent: {}
+[21.652918] (-) TimerEvent: {}
+[21.753547] (-) TimerEvent: {}
+[21.854201] (-) TimerEvent: {}
+[21.954949] (-) TimerEvent: {}
+[22.055636] (-) TimerEvent: {}
+[22.156437] (-) TimerEvent: {}
+[22.257206] (-) TimerEvent: {}
+[22.357980] (-) TimerEvent: {}
+[22.458784] (-) TimerEvent: {}
+[22.559864] (-) TimerEvent: {}
+[22.660680] (-) TimerEvent: {}
+[22.761514] (-) TimerEvent: {}
+[22.840917] (booster_rpc_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rpc_client_node\x1b[0m\n'}
+[22.861715] (-) TimerEvent: {}
+[22.962908] (-) TimerEvent: {}
+[23.063613] (-) TimerEvent: {}
+[23.164319] (-) TimerEvent: {}
+[23.265187] (-) TimerEvent: {}
+[23.366009] (-) TimerEvent: {}
+[23.466864] (-) TimerEvent: {}
+[23.567751] (-) TimerEvent: {}
+[23.668451] (-) TimerEvent: {}
+[23.769096] (-) TimerEvent: {}
+[23.869844] (-) TimerEvent: {}
+[23.970527] (-) TimerEvent: {}
+[24.068814] (booster_rpc_client) StdoutLine: {'line': b'[100%] Built target rpc_client_node\n'}
+[24.070697] (-) TimerEvent: {}
+[24.091906] (booster_rpc_client) CommandEnded: {'returncode': 0}
+[24.093169] (booster_rpc_client) JobProgress: {'identifier': 'booster_rpc_client', 'progress': 'install'}
+[24.093641] (booster_rpc_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client'], 'cwd': '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'booster'), ('SSH_CLIENT', '192.168.0.61 55246 22'), ('LCM_LIBRARY_DIR', '/usr/local/lib'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/booster'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/booster/Workspace/boosterxjw'), ('NVM_BIN', '/home/booster/.nvm/versions/node/v23.6.1/bin'), ('SSH_TTY', '/dev/pts/0'), ('NVM_INC', '/home/booster/.nvm/versions/node/v23.6.1/include/node'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LCM_INSTALL_PREFIX', '/usr/local'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/booster/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'booster'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1423724313007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/booster/.local/bin:/home/booster/miniforge3/condabin:/home/booster/.nvm/versions/node/v23.6.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/booster/BoosterRos2/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/booster/miniforge3'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/booster/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MAMBA_EXE', '/home/booster/miniforge3/bin/mamba'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client'), ('CONDA_EXE', '/home/booster/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.0.61 55246 192.168.0.68 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.110254] (booster_rpc_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.110850] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/booster_rpc_client/rpc_client_node\n'}
+[24.124278] (booster_rpc_client) StdoutLine: {'line': b'-- Set runtime path of "/home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/lib/booster_rpc_client/rpc_client_node" to ""\n'}
+[24.124748] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/package_run_dependencies/booster_rpc_client\n'}
+[24.124976] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/parent_prefix_path/booster_rpc_client\n'}
+[24.125142] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/ament_prefix_path.sh\n'}
+[24.125249] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/ament_prefix_path.dsv\n'}
+[24.125512] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/path.sh\n'}
+[24.125673] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/environment/path.dsv\n'}
+[24.126050] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.bash\n'}
+[24.126229] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.sh\n'}
+[24.126385] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.zsh\n'}
+[24.126490] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/local_setup.dsv\n'}
+[24.126764] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.dsv\n'}
+[24.127279] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/ament_index/resource_index/packages/booster_rpc_client\n'}
+[24.127488] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/cmake/booster_rpc_clientConfig.cmake\n'}
+[24.127582] (booster_rpc_client) StdoutLine: {'line': b'-- Up-to-date: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/cmake/booster_rpc_clientConfig-version.cmake\n'}
+[24.127669] (booster_rpc_client) StdoutLine: {'line': b'-- Installing: /home/booster/Workspace/boosterxjw/booster_ros2_example/install/booster_rpc_client/share/booster_rpc_client/package.xml\n'}
+[24.131454] (booster_rpc_client) CommandEnded: {'returncode': 0}
+[24.161572] (booster_rpc_client) JobEnded: {'identifier': 'booster_rpc_client', 'rc': 0}
+[24.163016] (-) EventReactorShutdown: {}

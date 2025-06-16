@@ -1,0 +1,22 @@
+[0.031s] Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target rpc_client_node[0m
+[0.249s] [ 50%] [32mBuilding CXX object CMakeFiles/rpc_client_node.dir/src/client.cpp.o[0m
+[5.914s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:[m[K In function ‘[01m[Kvoid cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.914s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_timer[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[5.914s]    44 |     [01;31m[Kstop_timer[m[K = node->create_wall_timer(3s, [](){
+[5.915s]       |     [01;31m[K^~~~~~~~~~[m[K
+[5.915s]       |     [32m[Kstrptime[m[K
+[5.915s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:[m[K In lambda function:
+[5.915s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_timer[m[K’ is not captured
+[5.915s]    46 |         [01;31m[Kstop_timer[m[K->cancel();  // 只执行一次
+[5.915s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.915s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:44:47:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.915s]    44 |     stop_timer = node->create_wall_timer(3s, [[01;36m[K][m[K(){
+[5.915s]       |                                               [01;36m[K^[m[K
+[5.916s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:44:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>stop_timer[m[K’ declared here
+[5.916s]    44 |     [01;36m[Kstop_timer[m[K = node->create_wall_timer(3s, [](){
+[5.916s]       |     [01;36m[K^~~~~~~~~~[m[K
+[12.889s] gmake[2]: *** [CMakeFiles/rpc_client_node.dir/build.make:76: CMakeFiles/rpc_client_node.dir/src/client.cpp.o] Error 1
+[12.889s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpc_client_node.dir/all] Error 2
+[12.890s] gmake: *** [Makefile:146: all] Error 2
+[12.896s] Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8

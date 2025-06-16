@@ -1,0 +1,61 @@
+[0.027s] Invoking command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target rpc_client_node[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/rpc_client_node.dir/src/client.cpp.o[0m
+[5.259s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:[m[K In function ‘[01m[Kvoid sendStopCommand()[m[K’:
+[5.259s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[5.260s]    14 |     if (![01;31m[Kclient[m[K->service_is_ready()) return;
+[5.260s]       |          [01;31m[K^~~~~~[m[K
+[5.273s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:18:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[5.274s]    18 |     auto result = [01;31m[Kclient[m[K->async_send_request(request);
+[5.274s]       |                   [01;31m[K^~~~~~[m[K
+[5.280s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.281s]                  from [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:4[m[K:
+[5.281s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:19:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[5.281s]    19 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Stop command sent.");
+[5.281s]       |                 [01;31m[K^~~~[m[K
+[5.281s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.281s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Stop command sent.");
+[5.281s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.281s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.282s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Stop command sent.");
+[5.282s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.282s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.282s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Stop command sent.");
+[5.282s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.284s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:[m[K At global scope:
+[5.285s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.285s]    22 | void cmdVelCallback(const [01;31m[Kgeometry_msgs[m[K::msg::Twist::SharedPtr msg) {
+[5.285s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[5.285s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:22:45:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.286s]    22 | void cmdVelCallback(const geometry_msgs::msg[01;31m[K::[m[KTwist::SharedPtr msg) {
+[5.286s]       |                                             [01;31m[K^~[m[K
+[5.286s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:22:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.286s]    22 | void cmdVelCallback[34m[K([m[Kconst geometry_msgs::msg[01;31m[K:[m[K[32m[K:[m[KTwist::SharedPtr msg) {
+[5.286s]       |                    [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+[5.287s]       |                                             [32m[K)[m[K
+[5.287s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:22:45:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[5.287s]    22 | void cmdVelCallback(const geometry_msgs::msg[01;31m[K::[m[KTwist::SharedPtr msg) {
+[5.287s]       |                                             [01;31m[K^~[m[K
+[5.406s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.407s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:81:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[5.407s]    81 |     auto subscription = node->create_subscription<[01;31m[Kgeometry_msgs[m[K::msg::Twist>(
+[5.407s]       |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[5.407s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:81:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.408s]    81 |     auto subscription = node->[01;31m[Kcreate_subscription<geometry_msgs::msg::Twist>[m[K(
+[5.408s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.416s] [01m[K/home/booster/Workspace/boosterxjw/booster_ros2_example/rpc_client/src/client.cpp:82:26:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelCallback[m[K’ was not declared in this scope
+[5.416s]    82 |         "/cmd_vel", 10, &[01;31m[KcmdVelCallback[m[K);
+[5.416s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.378s] gmake[2]: *** [CMakeFiles/rpc_client_node.dir/build.make:76: CMakeFiles/rpc_client_node.dir/src/client.cpp.o] Error 1
+[8.378s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpc_client_node.dir/all] Error 2
+[8.379s] gmake: *** [Makefile:146: all] Error 2
+[8.384s] Invoked command in '/home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/boosterxjw/booster_ros2_example/build/booster_rpc_client -- -j8 -l8
