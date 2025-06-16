@@ -3,8 +3,8 @@ import wave
 import threading
 import numpy as np
 from scipy.signal import resample
-from pynput import keyboard
-# import keyboard
+# from pynput import keyboard
+import keyboard
 import torch
 from torch import nn
 from funasr.models.ctc.ctc import CTC
@@ -339,7 +339,7 @@ class SenseVoiceSmall(nn.Module):
 class VoiceRecorder:
     def __init__(self,
              model_path="./SenseVoiceSmall",
-             ct_model_path="./weights/ct-transformer-large",
+             ct_model_path="./ct-transformer-large",
              device_index=0,
             #  output_wav="./record/output.wav"
              ):
@@ -428,29 +428,29 @@ class VoiceRecorder:
         print(f"已保存音频到 {self.output_wav}")
 
     # pynput 监听 需图形化界面
-    def listen_hotkeys(self):
-        def on_press(key):
-            try:
-                if key == keyboard.Key.ctrl_l or key == keyboard.Key.ctrl_r:
-                    self.start_recording()
-                elif key == keyboard.Key.alt_l or key == keyboard.Key.alt_r:
-                    self.stop_recording()
-                elif key == keyboard.Key.esc:
-                    print("ESC 检测到，退出程序")
-                    return False
-            except Exception as e:
-                print("键盘监听异常:", e)
-    # keyboard 监听 需root权限
     # def listen_hotkeys(self):
-    #     print("监听已启动：按 Ctrl 开始录音，Alt 停止识别，ESC 退出程序。")
-    #     keyboard.add_hotkey('ctrl', self.start_recording)
-    #     keyboard.add_hotkey('alt', self.stop_recording)
-    #     keyboard.wait('esc')
-    #     print("ESC 检测到，退出程序")
+    #     def on_press(key):
+    #         try:
+    #             if key == keyboard.Key.ctrl_l or key == keyboard.Key.ctrl_r:
+    #                 self.start_recording()
+    #             elif key == keyboard.Key.alt_l or key == keyboard.Key.alt_r:
+    #                 self.stop_recording()
+    #             elif key == keyboard.Key.esc:
+    #                 print("ESC 检测到，退出程序")
+    #                 return False
+    #         except Exception as e:
+    #             print("键盘监听异常:", e)
+    # keyboard 监听 需root权限
+    def listen_hotkeys(self):
+        print("监听已启动：按 Ctrl 开始录音，Alt 停止识别，ESC 退出程序。")
+        keyboard.add_hotkey('ctrl', self.start_recording)
+        keyboard.add_hotkey('alt', self.stop_recording)
+        keyboard.wait('esc')
+        print("ESC 检测到，退出程序")
 
-    #     print("监听已启动：按 Ctrl 开始录音，Alt 停止识别，ESC 退出程序。")
-    #     with keyboard.Listener(on_press=on_press) as listener:
-    #         listener.join()
+        print("监听已启动：按 Ctrl 开始录音，Alt 停止识别，ESC 退出程序。")
+        with keyboard.Listener(on_press=on_press) as listener:
+            listener.join()
 
     def terminate(self):
         self.p.terminate()
@@ -464,4 +464,4 @@ def record(device_index = 0):
         recorder.terminate()
 
 if __name__ == "__main__":
-    record(device_index = 0) # 音频设备
+    record(device_index = 25) # 音频设备

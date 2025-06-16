@@ -53,17 +53,6 @@ def launch_setup(context, *args, **kwargs):
         [pkg_factor_perception, 'launch', 'factor_perception_launch.py'])
 
     # Includes
-    nav2 = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([nav2_launch]),
-        launch_arguments=[
-            ('use_sim_time', 'true'),
-            ('params_file', nav2_params_file),
-        ]
-    )
-    rviz = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([rviz_launch])
-    )
-
     # 启动 rtabmap
     # rtabmap = IncludeLaunchDescription(
     #     PythonLaunchDescriptionSource([rtabmap_launch]),
@@ -73,6 +62,17 @@ def launch_setup(context, *args, **kwargs):
     #     ]
     # )
 
+    nav2 = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([nav2_launch]),
+        launch_arguments=[
+            ('use_sim_time', 'false'),
+            ('params_file', nav2_params_file),
+    ]
+    )
+    rviz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([rviz_launch])
+    )
+    
     # 启动 factor_perception
     rtabmap = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([factor_perception_launch]),

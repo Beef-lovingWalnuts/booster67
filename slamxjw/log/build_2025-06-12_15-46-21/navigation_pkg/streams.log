@@ -1,0 +1,74 @@
+[0.017s] Invoking command in '/home/booster/Workspace/slamxjw/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/booster/Workspace/slamxjw/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/booster/Workspace/slamxjw/install/navigation_pkg
+[0.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.344s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.357s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.437s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.439s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.672s] -- Found nav2_bringup: 1.1.18 (/opt/ros/humble/share/nav2_bringup/cmake)
+[0.672s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[0.951s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.082s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.210s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.211s] -- Added test 'lint_cmake' to check CMake code style
+[1.212s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.215s] -- Added test 'xmllint' to check XML markup files
+[1.217s] -- Configuring done
+[1.231s] -- Generating done
+[1.238s] -- Build files have been written to: /home/booster/Workspace/slamxjw/build/navigation_pkg
+[1.261s] Invoked command in '/home/booster/Workspace/slamxjw/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/booster/Workspace/slamxjw/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/booster/Workspace/slamxjw/install/navigation_pkg
+[1.266s] Invoking command in '/home/booster/Workspace/slamxjw/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/slamxjw/build/navigation_pkg -- -j8 -l8
+[1.349s] Invoked command in '/home/booster/Workspace/slamxjw/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/booster/Workspace/slamxjw/build/navigation_pkg -- -j8 -l8
+[1.371s] Invoking command in '/home/booster/Workspace/slamxjw/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/booster/Workspace/slamxjw/build/navigation_pkg
+[1.386s] -- Install configuration: ""
+[1.387s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch
+[1.388s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/__pycache__
+[1.388s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/__pycache__/nav2_demo_launch.cpython-310.pyc
+[1.388s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/nav2_demo_launch.py
+[1.388s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/navigation_launch_test.py
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/build
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/build/COLCON_IGNORE
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/build/.built_by
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/latest
+[1.389s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/COLCON_IGNORE
+[1.390s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/build_2025-05-15_13-54-40
+[1.390s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/build_2025-05-15_13-54-40/events.log
+[1.390s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/build_2025-05-15_13-54-40/logger_all.log
+[1.390s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/latest_build
+[1.390s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/factor_perception_nav2_params copy.yaml
+[1.391s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/factor_perception_nav2_params.yaml
+[1.391s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install
+[1.391s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.ps1
+[1.391s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.zsh
+[1.392s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/COLCON_IGNORE
+[1.392s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/setup.zsh
+[1.392s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/setup.bash
+[1.393s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/.colcon_install_layout
+[1.393s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/_local_setup_util_sh.py
+[1.393s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.bash
+[1.394s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/setup.ps1
+[1.394s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/_local_setup_util_ps1.py
+[1.394s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.sh
+[1.396s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/setup.sh
+[1.396s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+[1.396s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+[1.397s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+[1.398s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+[1.398s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+[1.398s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+[1.398s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+[1.398s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+[1.398s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+[1.399s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+[1.399s] -- Installing: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/package.dsv
+[1.399s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+[1.399s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+[1.400s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+[1.400s] -- Up-to-date: /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg/package.xml
+[1.401s] Invoked command in '/home/booster/Workspace/slamxjw/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/booster/Workspace/slamxjw/build/navigation_pkg

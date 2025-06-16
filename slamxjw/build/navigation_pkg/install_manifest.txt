@@ -1,5 +1,6 @@
+/home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/__pycache__/nav2_demo_launch.cpython-310.pyc
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/nav2_demo_launch.py
-/home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/navigation_launch.py
+/home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//launch/navigation_launch_test.py
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/build/COLCON_IGNORE
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/build/.built_by
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/latest
@@ -7,7 +8,7 @@
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/build_2025-05-15_13-54-40/events.log
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/build_2025-05-15_13-54-40/logger_all.log
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/log/latest_build
-/home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/nav2_params.yaml
+/home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/factor_perception_nav2_params copy.yaml
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/factor_perception_nav2_params.yaml
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.ps1
 /home/booster/Workspace/slamxjw/install/navigation_pkg/share/navigation_pkg//config/install/local_setup.zsh
